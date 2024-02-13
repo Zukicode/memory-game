@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Memory Game | zukicode</title>
+	<link rel="icon" href="./src/images/favicon.png">
+	<link rel="stylesheet" href="./src/styles/index.css">
+</head>
+
+<body>
+
+	<div class="header">
+		<p id='player_one' class="current">Player 1 - <span id="score_player_one">0</span></p>
+		<h1>Memory Game</h1>
+		<p id='player_two'>Player 2 - <span id="score_player_two">0</span></p>
+	</div>
+
+	<div id="game">
+	</div>
+
+	<div class="footer">
+		<h1 class='current_player'>Just start now!</h1>
+	</div>
+
+	<button class='play_again'>Play again!</button>
+
+	<script src="src/logic/utils.js" defer></script>
+	<script src="src/logic/data.js" defer></script>
+	<script src="index.js" defer></script>
+</body>
+
+</html>
